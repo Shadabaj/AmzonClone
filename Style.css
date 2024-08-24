@@ -1,0 +1,429 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+
+.nav-bar {
+    height: 65px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5px;
+    /* justify-content: space-evenly; */
+
+}
+
+.nav-logo {
+    width: 113px;
+    height: 50px;
+}
+
+.logo {
+    background-image: url("logo.png");
+    background-size: cover;
+    width: 100%;
+    height: 50px;
+}
+
+
+.border {
+    border: 1px solid transparent;
+    height: 50px;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+.address-one {
+    color: #CCCCCC;
+    margin-left: 15px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.address-two {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 3px;
+}
+
+
+.add-icon {
+    display: flex;
+}
+
+
+
+
+/* Nav Search BOX 3 */
+
+.nav-search {
+    height: 40px;
+    width: 800px;
+    display: flex;
+    background-color: pink;
+    box-sizing: border-box;
+    border: 2px solid #0f1111;
+}
+
+.select-search {
+    background-color: #f3f3f3f3;
+    border-radius: 4px;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+
+.input-search {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+
+.button-search {
+    width: 55px;
+    background-color: #febd68;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    font-size: larger;
+    border: none;
+}
+
+
+.nav-search:hover {
+    box-sizing: border-box;
+    border: 2px solid orange;
+}
+
+
+
+
+
+.nav-flag {
+    background-image: url("india.png");
+    background-size: cover;
+    width: 20px;
+    height: 15px;
+    border: none;
+
+}
+
+
+.nav-country {
+    display: flex;
+    border: none;
+    align-items: center;
+
+}
+
+
+
+.flag-search {
+    width: 45px;
+    height: 18px;
+    border: none;
+    background-color: #0f1111;
+    color: white;
+
+}
+
+/* 
+Nav SIGN-IN */
+
+.nav-signin {
+    width: 135px;
+    color: #ffffff;
+}
+
+.Signin-One {
+    font-size: 0.75rem;
+}
+
+.Signin-Two {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Nav Orders  */
+.nav-orders {
+    color: #ffffff;
+    width: 135px;
+}
+
+.Order-One {
+    font-size: 0.75rem;
+}
+
+.Order-Two {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+/* NAV-CART */
+.nav-Cart {
+    color: white;
+    font-weight: 700;
+}
+
+.nav-Cart i {
+    font-size: 30px;
+}
+
+/* Nav-Bar Two Panel-Two */
+
+.NavBar-Two {
+    background-color: #222f38;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    justify-content: space-evenly;
+    font-weight: 700;
+}
+
+.panel-all span {
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.panel-ops {
+    width: 80%;
+}
+
+.panel-ops a {
+    display: inline;
+    margin-left: 14px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.panel-border {
+    border: 1px solid transparent;
+}
+
+
+.panel-border:hover {
+    border: 1px solid #ffffff;
+
+}
+
+/* HERO SECTION  */
+
+.Hero-Section {
+    background-image: url("hero.jpg");
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem 0 2rem;
+}
+
+.Hero-Message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 35px;
+    background-color: white;
+    margin-top: 20%;
+
+}
+
+.Hero-Message h2 {
+    font-size: 0.75rem;
+    font-weight: lighter;
+}
+
+
+.Hero-Message span a {
+    text-decoration: none;
+
+}
+
+/* Shopping Section */
+
+.Shopping-section {
+    padding-top: 15px;
+    background-color: #e2e2e2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+    padding-bottom: 25px;
+}
+
+.box-outer {
+    width: 23%;
+    height: 340px;
+    background-color: #ffffff;
+    margin-top: 1.2rem;
+}
+
+
+
+.box-outer h2{
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.box-outer a{
+text-decoration: none;
+margin-left: 1rem;
+}
+
+.box-outer a:hover{
+color: red;
+}
+
+
+.img-box{
+    background-size: cover;
+    height: 230px;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+
+
+/* Footer */
+
+.footer-panel-1{
+    height: 160px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-border-line{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 70%;
+    border: 0.5px solid black;
+    border-radius: 4px;
+   
+}
+
+.footer-border-line p{
+    color: #0f1111;
+}
+
+.inner-pannel-button{
+    align-items: center;
+    padding-top: 30px;
+}
+
+.inner-button{
+    background-color: #febd68;
+    width: 16%;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.inner-pannel-button p{
+    font-size: 0.85rem;
+    font-weight:500;
+    padding-bottom: 5px;
+}
+
+#font{
+font-size: 0.75rem;
+}
+
+#font span{
+    color:#37475a;
+}
+
+#font span:hover{
+    color:red;
+}
+
+
+.footer-panel-2{
+    height: 35px;
+    background-color: #37475a;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.footer-panel-2 a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: medium;
+}
+
+
+.foot-panel-3{
+    padding-top: 30px;
+    height: 300px;
+    background-color:  #222f38;
+    display: flex;
+    justify-content: space-evenly;
+    color: #CCCCCC;
+}
+
+.foot-panel-3 ul a{
+    display: block;
+    line-height: 30px;
+}
+
+.footer-panel-3-font{
+    font-weight: 800;
+}
+
+
+.foot-panel4{
+    border-top: 0.2px solid white;
+    background-color: #222f38;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;   
+}
+
+
+
+.foot-logo{
+background-image: url("foot-logo.png");
+background-size: cover;
+height: 50px;
+width: 100px;
+}
+
+.foot-panel-5{
+    padding-top: 35px;
+   background-color:#0f1111; 
+   height: 100px;
+   text-align: center;
+   color: white;
+   line-height: 30px;
+}
+
+
+
+.pages a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.pages a:hover{
+    text-decoration:underline;
+}
